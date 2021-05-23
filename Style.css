@@ -1,0 +1,48 @@
+#body{
+    display: grid;
+    grid-template-columns: 23% auto;
+}
+#menu{
+    display: grid;
+    grid-template-rows: 70% auto;
+    background-color: rgb(230, 230, 230);
+
+}
+.profile{
+    display: inline-block;
+    background:radial-gradient(white,rgba(224, 224, 224,0.6));
+    border-radius: 15px;
+    padding: 25px 10px;
+}
+#content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    grid-row-gap: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#contact{
+    background:#02A689 ;
+    display: inline-block;
+    color: white;
+    padding: 8px 30px;
+    margin: 25% 25% 50% 25%;
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 10px;
+}
+.links{
+    padding-left: 20%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.links:hover{
+    background-color: white;
+}
+#contact:hover{
+    background-color: rgba(2, 167, 137, 0.8);
+}
+.profile:hover{
+    transform: scale(1.03);
+}
